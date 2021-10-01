@@ -65,8 +65,13 @@
     <Build Include="StoredProcedures\AddDepartment.sql" />
     <Build Include="Tables\ErrorLog.sql" />
     <Build Include="StoredProcedures\usp_ErrorLogging.sql" />
+    <Build Include="Tables\SqlErrorLog.sql" />
+    <Build Include="StoredProcedures\usp_LogError.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SampleDbProject.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="SampleDbProject.refactorlog" />
   </ItemGroup>
 </Project>
